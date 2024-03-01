@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Duplicate Tabs",
+  "description": "This Extension is designed to delete duplicate tabs",
+  "version": "1.0",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "ui.html",
+    "default_icon": "hello_extensions.png"
+  }
+}
